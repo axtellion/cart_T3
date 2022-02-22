@@ -1,0 +1,104 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Philosopher", sans-serif;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.cart__img {
+  width: 360px;
+}
+
+.cart__item {
+  flex-basis: calc((100% - 6 * 15px) 3);
+  margin: 10px;
+}
+
+.cart__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 0.96;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.cart__box {
+  padding: 10px 0;
+}
+
+.cart__text {
+  max-width: 360px;
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.rating-mini {
+  display: inline-block;
+  font-size: 0;
+}
+.rating-mini span {
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
+  color: lightgrey;
+}
+.rating-mini > span:before {
+  content: "★";
+}
+.rating-mini > span.active {
+  color: gold;
+}
